@@ -11,9 +11,9 @@ public class CurrencyConverter {
         while (!finished) {
             System.out.println();
             System.out.println("What would you like to do?");
-            System.out.println("   1 - Exchange pounds into euro");
-            System.out.println("   2 - Exchange euro into pounds");
-            System.out.println("   0 - Exit the program");
+            System.out.println("Key in 1 to: Exchange pounds into euro");
+            System.out.println("Key in 2 to: Exchange euro into pounds");
+            System.out.println("Key in 0 to: Exit the program");
             System.out.println();
             System.out.print(  "> ");
             int choice = scan.nextInt();
