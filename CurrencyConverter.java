@@ -1,6 +1,7 @@
 public class CurrencyConverter {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
+        System.out.print("** Converting pounds to euro and vice versa **");
         System.out.print("If I give you £1, how many Euro will you give me? ");
         double euroOverPoundRatio = scan.nextDouble();
         System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
